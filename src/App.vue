@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="app">哈哈哈哈
   </div>
 </template>
 
