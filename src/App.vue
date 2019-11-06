@@ -3,30 +3,65 @@
     <router-view></router-view>
     <footer class="footer">
       <ul>
-        <li class="active">
-          <i class="iconfont icon-shouye active"></i>
-          <p>首页</p>
-        </li>
-        <li>
-          <i class="iconfont icon-fenleixuanzhong"></i>
-          <p>分类</p>
-        </li>
-        <li>
-          <i class="iconfont icon-fangjin"></i>
-          <p>识物</p>
-        </li>
-        <li>
-          <i class="iconfont icon-gouwuche2"></i>
-          <p>购物车</p>
-        </li>
-        <li>
-          <i class="iconfont icon-geren"></i>
-          <p>个人</p>
+        <li v-for="(item) in navData" :key="item.id" >
+          <router-link :to="item.route" :class="{active:active===item.id}" @click="active=item.id">
+            <i :class="item.cls"></i>
+            <p v-text="item.content"></p>
+          </router-link>
         </li>
       </ul>
     </footer>
   </div>
 </template>
+<script>
+/* 循环数据 */
+let navData = [
+  {
+    id: 0,
+    route: "/home",
+    cls: "iconfont icon-shouye",
+    content: "首页"
+  },
+  {
+    id: 1,
+    route: "/classify",
+    cls: "iconfont icon-fenleixuanzhong",
+    content: "分类"
+  },
+  {
+    id: 2,
+    route: "/identifying",
+    cls: "iconfont icon-fangjin",
+    content: "识物"
+  },
+  {
+    id: 3,
+    route: "/shoppingcart",
+    cls: "iconfont icon-gouwuche2",
+    content: "购物车"
+  },
+  {
+    id: 4,
+    route: "/personal",
+    cls: "iconfont iconfont icon-geren",
+    content: "个人"
+  }
+];
+export default {
+  data() {
+    return {
+      active: 0,
+      navData
+    };
+  },
+  methods: {
+    switchClass(id) {
+      this.active = id;
+      return;
+    }
+  }
+};
+</script>
 
 <style lang="less">
 .footer {
@@ -36,21 +71,23 @@
   width: 100%;
   height: 1.25rem;
   ul {
-    padding-top: .25rem;
+    padding-top: 0.25rem;
     height: 100%;
     background: pink;
-    font-size: .28rem;
+    font-size: 0.28rem;
     li {
-      color: #666;
+      a {
+        color: #666;
+      }
+      a.active {
+        color: #dd1a21;
+      }
       i {
-        font-size: .45rem;
+        font-size: 0.45rem;
       }
       text-align: center;
       float: left;
       width: 20%;
-    }
-    li.active {
-      color: #dd1a21;
     }
   }
 }
