@@ -31,6 +31,7 @@
     <bigimg></bigimg>
     <privateorder></privateorder>
     <limitedtime></limitedtime>
+    <newproductlaunch></newproductlaunch>
   </div>
 </template>
 <script>
@@ -39,6 +40,7 @@ import classification from "./classification2";
 import bigimg from './bigimg3';
 import privateorder from './privateorder4';
 import limitedtime from './limitedtime5';
+import newproductlaunch from './newproductlaunch6';
 let navData = [
   {
     id: 0,
@@ -69,7 +71,8 @@ export default {
     classification,
     bigimg,
     privateorder,
-    limitedtime
+    limitedtime,
+    newproductlaunch
   }
 };
 </script>
