@@ -36,10 +36,10 @@ const router = new VueRouter({
     children: [
       {
         path: '',
-        redirect: 'list'
+        redirect: '/classify/list'
       }, {
         path: 'list',
-        component: ClassIfyList
+        component: ClassIfyList,
       }
     ]
   }, {
