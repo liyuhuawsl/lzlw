@@ -1,4 +1,5 @@
 <template>
+
 <div>
   <Head></Head>
   <handle-list></handle-list>
@@ -11,7 +12,10 @@ export default {
   components: {
     Head,
     HandleList
-  }
-};
+  },
+}
+
 </script>
-<style lang="less"></style>
+<style lang="less" scoped>
+</style>
+
