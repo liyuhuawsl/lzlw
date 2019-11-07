@@ -4,7 +4,7 @@
     <footer class="footer">
       <ul>
         <li v-for="(item) in navData" :key="item.id">
-          <router-link :to="item.route" :class="{active:active===item.id}" @click="active=item.id">
+          <router-link :to="item.route" active-class="active">
             <i :class="item.cls"></i>
             <p v-text="item.content"></p>
           </router-link>
@@ -50,7 +50,7 @@ let navData = [
 export default {
   data() {
     return {
-      active: 0,
+      activeIndex: 0,
       navData
     };
   },
@@ -73,7 +73,7 @@ export default {
   ul {
     padding-top: 0.25rem;
     height: 100%;
-    background: pink;
+    background: #fff;
     font-size: 0.28rem;
     li {
       a {
