@@ -50,7 +50,7 @@ let navData = [
 export default {
   data() {
     return {
-      active: 0,
+      activeIndex: 0,
       navData
     };
   },
