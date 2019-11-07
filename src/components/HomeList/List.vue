@@ -6,10 +6,10 @@
           <img src="../../assets/网易严选img/首页/logo.png" alt />
           网易严选
         </h1>
-        <button>
+        <router-link to="/search" class="button" @click="searchJump">
           <i class="iconfont icon-magnifier"></i>
           <span>&nbsp;搜索商品, 共24039款好物</span>
-        </button>
+        </router-link>
         <span class="submit">登录</span>
       </div>
       <nav>
@@ -26,12 +26,19 @@
         </ul>
       </nav>
     </header>
+    <div class="backtothetop" @click="backUp">
+      <p class="iconfont icon-icon12"></p>
+    </div>
     <banner></banner>
     <classification></classification>
     <bigimg></bigimg>
     <privateorder></privateorder>
     <limitedtime></limitedtime>
     <newproductlaunch></newproductlaunch>
+    <recommend></recommend>
+    <hotlist></hotlist>
+    <featured></featured>
+    <pagefooter></pagefooter>
   </div>
 </template>
 <script>
@@ -41,6 +48,10 @@ import bigimg from './bigimg3';
 import privateorder from './privateorder4';
 import limitedtime from './limitedtime5';
 import newproductlaunch from './newproductlaunch6';
+import recommend from './recommend7';
+import hotlist from './hotlist8';
+import featured from './featured9';
+import pagefooter from './pagefooter10';
 let navData = [
   {
     id: 0,
@@ -66,13 +77,25 @@ export default {
       navData
     };
   },
+  methods: {
+    backUp() {
+      window.scroll(0, 0);
+    },
+    searchJump() {
+      this.$router.push('/search');
+    }
+  },
   components: {
     banner,
     classification,
     bigimg,
     privateorder,
     limitedtime,
-    newproductlaunch
+    newproductlaunch,
+    recommend,
+    hotlist,
+    featured,
+    pagefooter
   }
 };
 </script>
@@ -96,11 +119,12 @@ header {
       background-size: cover;
     }
   }
-  button {
+  .button {
     background: #ededed;
     i {
       font-size: 0.38rem;
     }
+    display: inline-block;
     color: #666;
     text-align: center;
     width: 4.5rem;
@@ -122,7 +146,23 @@ header {
     font-size: 0.25rem;
   }
 }
-
+.backtothetop {
+  z-index: 8888;
+  position: fixed;
+  bottom: 1.5rem;
+  right: .2rem;
+  width: .8rem;
+  height: .8rem;
+  transition: all 1s  linear 0s;
+  background: #fff;
+  border-radius: 50%;
+  p {
+    font-size: .6rem;
+    text-align: center;
+    line-height: .8rem;
+    color: #333;
+  }
+}
 nav {
   ul {
     li.active {
