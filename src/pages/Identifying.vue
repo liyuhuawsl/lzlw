@@ -1,6 +1,6 @@
 <template>
     <div>
-        我是识物
+        <router-view></router-view>
     </div>
 </template>
 

@@ -3,7 +3,7 @@
     <router-view></router-view>
     <footer class="footer">
       <ul>
-        <li v-for="(item) in navData" :key="item.id" >
+        <li v-for="(item) in navData" :key="item.id">
           <router-link :to="item.route" :class="{active:active===item.id}" @click="active=item.id">
             <i :class="item.cls"></i>
             <p v-text="item.content"></p>
@@ -63,7 +63,7 @@ export default {
 };
 </script>
 
-<style lang="less">
+<style lang="less" scoped>
 .footer {
   position: fixed;
   bottom: 0;

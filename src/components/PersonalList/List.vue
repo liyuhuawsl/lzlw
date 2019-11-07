@@ -1,15 +1,13 @@
 <template>
     <div>
-        <router-view></router-view>
+        个人
     </div>
 </template>
-
 <script>
 export default {
     
 }
 </script>
-
-<style lang="less" scoped>
+<style lang="stylus">
 
 </style>

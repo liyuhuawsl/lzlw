@@ -1,6 +1,6 @@
 <template>
     <div>
-        我是购物车
+        <router-view></router-view>
     </div>
 </template>
 

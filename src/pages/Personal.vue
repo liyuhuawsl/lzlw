@@ -1,6 +1,6 @@
 <template>
     <div>
-        我是个人
+        <router-view></router-view>
     </div>
 </template>
 
