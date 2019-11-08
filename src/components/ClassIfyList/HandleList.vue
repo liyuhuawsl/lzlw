@@ -41,7 +41,6 @@
       </ul>
     </div>
     <div class="cateRight">
-
       <div class="banner">
         <img
           src="https://yanxuan.nosdn.127.net/fcb646136cabf0b597d41e459de631df.jpg?imageView&thumbnail=0x196"
@@ -121,23 +120,13 @@
           </li>
         </ul>
       </div>
-
-      <list-right></list-right>
-
     </div>
   </div>
 </template>
 <script>
-
-
-
-import ListRight from "./ListRight";
 export default {
-  components: {
-    ListRight
-  }
+ 
 };
-
 </script>
 <style lang="less" scoped>
 .cate-Container {
@@ -148,12 +137,6 @@ export default {
     float: left;
     width: 20%;
     padding: 0.53rem 0;
-
-    -webkit-overflow-scrolling: touch;
-    overflow-x: auto; //overflow-x 横屏滚动 overflow-y 竖屏滚动
-    overflow-y: hidden; //overflow-x 横屏滚动 overflow-y 竖屏滚动
-    white-space: nowrap;
-
     .cateLeft-list > li {
       width: 1.62rem;
       height: 0.67rem;

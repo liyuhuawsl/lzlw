@@ -6,7 +6,7 @@
 </div>
 </template>
 <script>
-import Head from "./Head";
+import Head from "./Header";
 import HandleList from './HandleList';
 export default {
   components: {

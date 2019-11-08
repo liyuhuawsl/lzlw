@@ -65,7 +65,7 @@ export default {
 
 <style lang="less" scoped>
 .footer {
-  z-index: 777;
+  z-index: 9999;
   position: fixed;
   bottom: 0;
   left: 0;
