@@ -28,6 +28,7 @@
 </div>
 </template>
 <script>
+
 let assetsData = [
     {
         id: 1,
@@ -55,23 +56,12 @@ export default {
 data() {
     return {
     phone: "",
-    password: ""
+    password: "",
+    assetsData
     };
 },
 methods: {
-    handleLogin(phone, password) {
-        
-        
-        login(phone, password).then(result => {
-            
-            
-            if (parseInt(result.code) === 0) {
-                this.$router.push('/search');
-                return;
-            }
-            return Promise.reject();
-        })
-    }
+  
 }};
 </script>
 <style lang="less" scoped>
