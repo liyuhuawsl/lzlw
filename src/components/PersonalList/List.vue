@@ -6,6 +6,7 @@
         <div class="text">
         <p>18870079052</p>
         <p>郑洪霞</p>
+        <p>普通用户李玉华</p>
         </div>
     </div>
     <div class="QRcode">
