@@ -6,6 +6,23 @@
   "description": "",
   "glyphs": [
     {
+<<<<<<< HEAD
+=======
+      "icon_id": "77034",
+      "name": "会员卡",
+      "font_class": "huiyuanqia",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "107548",
+      "name": "x",
+      "font_class": "x",
+      "unicode": "e63a",
+      "unicode_decimal": 58938
+    },
+    {
+>>>>>>> eebb203c4eb047f8838146f32efb15b5ae818ed7
       "icon_id": "324446",
       "name": "iconfont-right",
       "font_class": "iconfontright",

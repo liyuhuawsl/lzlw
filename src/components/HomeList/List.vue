@@ -9,8 +9,8 @@
         <button>
           <i class="iconfont icon-magnifier"></i>
           <span>&nbsp;搜索商品, 共24039款好物</span>
-        </button>
-        <span class="submit">登录</span>
+        </router-link>
+        <router-link to="/personal" class="submit">登录</router-link>
       </div>
       <nav>
         <ul>
@@ -47,7 +47,6 @@ import featured from "./featured9";
 import pagefooter from "./pagefooter10";
 
 /* API */
-import { log } from "util";
 let navData = [
   {
     id: 0,
