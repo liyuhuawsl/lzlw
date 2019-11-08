@@ -124,11 +124,15 @@
   </div>
 </template>
 <script>
-export default {};
+export default {
+ 
+};
 </script>
 <style lang="less" scoped>
 .cate-Container {
   width: 100%;
+  margin-top: 1rem;
+
   .cateLeft {
     float: left;
     width: 20%;

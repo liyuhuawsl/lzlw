@@ -44,14 +44,16 @@
 <script>
 import banner from "./banner1";
 import classification from "./classification2";
-import bigimg from './bigimg3';
-import privateorder from './privateorder4';
-import limitedtime from './limitedtime5';
-import newproductlaunch from './newproductlaunch6';
-import recommend from './recommend7';
-import hotlist from './hotlist8';
-import featured from './featured9';
-import pagefooter from './pagefooter10';
+import bigimg from "./bigimg3";
+import privateorder from "./privateorder4";
+import limitedtime from "./limitedtime5";
+import newproductlaunch from "./newproductlaunch6";
+import recommend from "./recommend7";
+import hotlist from "./hotlist8";
+import featured from "./featured9";
+import pagefooter from "./pagefooter10";
+
+/* API */
 let navData = [
   {
     id: 0,
@@ -82,8 +84,9 @@ export default {
       window.scroll(0, 0);
     },
     searchJump() {
-      this.$router.push('/search');
+      this.$router.push("/search");
     }
+  
   },
   components: {
     banner,
@@ -150,16 +153,16 @@ header {
   z-index: 8888;
   position: fixed;
   bottom: 1.5rem;
-  right: .2rem;
-  width: .8rem;
-  height: .8rem;
-  transition: all 1s  linear 0s;
+  right: 0.2rem;
+  width: 0.8rem;
+  height: 0.8rem;
+  transition: all 1s linear 0s;
   background: #fff;
   border-radius: 50%;
   p {
-    font-size: .6rem;
+    font-size: 0.6rem;
     text-align: center;
-    line-height: .8rem;
+    line-height: 0.8rem;
     color: #333;
   }
 }
