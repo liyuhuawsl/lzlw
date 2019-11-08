@@ -1,13 +1,22 @@
 <template>
-    <div>
-        分类
-    </div>
+  <div>
+    <Head></Head>
+    <handle-list></handle-list>
+  </div>
 </template>
 <script>
-export default {
-    
-}
-</script>
-<style lang="stylus">
+import Head from "./Header";
+import HandleList from "./HandleList";
 
+
+export default {
+  components: {
+    Head,
+    HandleList
+  },
+
+};
+</script>
+<style lang="less" scoped>
 </style>
+
