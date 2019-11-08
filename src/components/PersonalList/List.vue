@@ -52,12 +52,27 @@ let assetsData = [
     }
 ]
 export default {
-    data() {
-        return {
-            assetsData
-        }
+data() {
+    return {
+    phone: "",
+    password: ""
+    };
+},
+methods: {
+    handleLogin(phone, password) {
+        
+        
+        login(phone, password).then(result => {
+            
+            
+            if (parseInt(result.code) === 0) {
+                this.$router.push('/search');
+                return;
+            }
+            return Promise.reject();
+        })
     }
-};
+}};
 </script>
 <style lang="less" scoped>
 header {

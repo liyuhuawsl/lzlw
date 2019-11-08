@@ -6,11 +6,11 @@
           <img src="../../assets/网易严选img/首页/logo.png" alt />
           网易严选
         </h1>
-        <router-link to="/search" class="button" @click="searchJump">
+        <button>
           <i class="iconfont icon-magnifier"></i>
           <span>&nbsp;搜索商品, 共24039款好物</span>
-        </router-link>
-        <span class="submit">登录</span>
+        </button>
+        <router-link to="/personal" class="submit">登录</router-link>
       </div>
       <nav>
         <ul>
@@ -26,19 +26,12 @@
         </ul>
       </nav>
     </header>
-    <div class="backtothetop" @click="backUp">
-      <p class="iconfont icon-icon12"></p>
-    </div>
     <banner></banner>
     <classification></classification>
     <bigimg></bigimg>
     <privateorder></privateorder>
     <limitedtime></limitedtime>
     <newproductlaunch></newproductlaunch>
-    <recommend></recommend>
-    <hotlist></hotlist>
-    <featured></featured>
-    <pagefooter></pagefooter>
   </div>
 </template>
 <script>
@@ -54,7 +47,6 @@ import featured from "./featured9";
 import pagefooter from "./pagefooter10";
 
 /* API */
-import { log } from "util";
 let navData = [
   {
     id: 0,
@@ -95,11 +87,7 @@ export default {
     bigimg,
     privateorder,
     limitedtime,
-    newproductlaunch,
-    recommend,
-    hotlist,
-    featured,
-    pagefooter
+    newproductlaunch
   }
 };
 </script>
@@ -123,12 +111,11 @@ header {
       background-size: cover;
     }
   }
-  .button {
+  button {
     background: #ededed;
     i {
       font-size: 0.38rem;
     }
-    display: inline-block;
     color: #666;
     text-align: center;
     width: 4.5rem;

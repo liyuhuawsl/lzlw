@@ -23,16 +23,8 @@
   content: "\e62e";
 }
 
-.icon-gouwu:before {
-  content: "\e7b1";
-}
-
 .icon-iconfontleft:before {
   content: "\e62a";
-}
-
-.icon-fankui:before {
-  content: "\e738";
 }
 
 .icon-jiaoyi:before {
@@ -59,24 +51,12 @@
   content: "\e64d";
 }
 
-.icon-wodeyizhou:before {
-  content: "\e623";
-}
-
-.icon-dizhi:before {
-  content: "\e63e";
-}
-
 .icon-geren:before {
   content: "\e680";
 }
 
 .icon-shouye:before {
   content: "\e699";
-}
-
-.icon-shouhou:before {
-  content: "\e60d";
 }
 
 .icon-fangjin:before {
@@ -87,31 +67,7 @@
   content: "\e6a3";
 }
 
-.icon-yaoqingfanli:before {
-  content: "\e60e";
-}
-
-.icon-kefu:before {
-  content: "\e610";
-}
-
-.icon-weibiaoti--:before {
-  content: "\e626";
-}
-
 .icon-youyouyanxuan:before {
   content: "\e6df";
-}
-
-.icon-zhanghaoanquan:before {
-  content: "\e616";
-}
-
-.icon-jifen:before {
-  content: "\e629";
-}
-
-.icon-6:before {
-  content: "\e61b";
 }
 

@@ -10,8 +10,6 @@ import ClassIfyList from '../components/ClassIfyList/List.vue';
 import IdentifyingList from '../components/IdentifyingList/List.vue';
 import ShoppingCartList from '../components/ShoppingCartList/List.vue';
 import PersonalList from '../components/PersonalList/List.vue';
-
-import Search from '../components/search.vue';
 Vue.use(VueRouter)
 const router = new VueRouter({
   mode: "hash",
@@ -38,10 +36,10 @@ const router = new VueRouter({
     children: [
       {
         path: '',
-        redirect: '/classify/list'
+        redirect: 'list'
       }, {
         path: 'list',
-        component: ClassIfyList,
+        component: ClassIfyList
       }
     ]
   }, {
@@ -84,9 +82,6 @@ const router = new VueRouter({
       }
     ]
   }, {
-    path: '/search',
-    component: Search
-  },{
     path: '*',
     redirect: '/home'
   }]

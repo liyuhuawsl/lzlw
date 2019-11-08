@@ -11,10 +11,5 @@ export default {
 </script>
 
 <style lang="less" scoped>
-.container {
-    p {
-        font-size: .3rem;
-        width: 3rem;
-    }
-}
+
 </style>
