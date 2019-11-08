@@ -10,7 +10,7 @@
           <i class="iconfont icon-magnifier"></i>
           <span>&nbsp;搜索商品, 共24039款好物</span>
         </router-link>
-        <router-link to="/personal" class="submit">登录</router-link>
+        <span class="submit">登录</span>
       </div>
       <nav>
         <ul>
