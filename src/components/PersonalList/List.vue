@@ -5,6 +5,9 @@
         <img src="//yanxuan.nosdn.127.net/8945ae63d940cc42406c3f67019c5cb6.png" alt />
         <div class="text">
           <span>普通用户李玉华</span>
+          <span>普通用户李玉华</span>
+          <span>普通用户李玉华</span>
+          <span>普通用户李玉华</span>
         </div>
       </div>
       <div class="QRcode">
