@@ -5,39 +5,6 @@
         <li>
           <a href>双11专区</a>
         </li>
-        <li>
-          <a href>暖冬好物</a>
-        </li>
-        <li>
-          <a href>爆品专区</a>
-        </li>
-        <li>
-          <a href>新品专区</a>
-        </li>
-        <li>
-          <a href>居家生活</a>
-        </li>
-        <li>
-          <a href>服饰鞋包</a>
-        </li>
-        <li>
-          <a href>美食酒水</a>
-        </li>
-        <li>
-          <a href>个护清洁</a>
-        </li>
-        <li>
-          <a href>母婴亲子</a>
-        </li>
-        <li>
-          <a href>运动旅行</a>
-        </li>
-        <li>
-          <a href>数码家电</a>
-        </li>
-        <li>
-          <a href>全球特色</a>
-        </li>
       </ul>
     </div>
     <div class="cateRight">
@@ -124,9 +91,7 @@
   </div>
 </template>
 <script>
-export default {
- 
-};
+export default {};
 </script>
 <style lang="less" scoped>
 .cate-Container {
