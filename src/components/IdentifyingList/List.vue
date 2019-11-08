@@ -1,6 +1,6 @@
 <template>
     <div>
-        识物
+        识物嘻嘻嘻
     </div>
 </template>
 <script>
@@ -8,6 +8,6 @@ export default {
     
 }
 </script>
-<style lang="stylus">
+<style lang="less" scoped>
 
 </style>
