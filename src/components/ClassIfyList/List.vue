@@ -1,17 +1,13 @@
 <template>
-<div>
-  <Head></Head>
-  <handle-list></handle-list>
-</div>
+    <div>
+        分类
+    </div>
 </template>
 <script>
-import Head from "./Head";
-import HandleList from './HandleList';
 export default {
-  components: {
-    Head,
-    HandleList
-  }
-};
+    
+}
 </script>
-<style lang="less"></style>
+<style lang="stylus">
+
+</style>

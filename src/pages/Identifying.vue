@@ -4,8 +4,8 @@
             <div class='w-header'>
                 <a href="#"><i class='iconfont icon-shouye'></i></a>
                 <div class='header_c'>
-                    <router-link to='/identifying' class='header_cc active'>发现</router-link>
-                    <router-link to='/identifying' class='header_cc'>甄选家</router-link>
+                    <router-link to='/identifying' class="header_cc active">发现</router-link>
+                    <router-link to='/identifying' class="header_cc">甄选家</router-link>
                 </div>
                 <div class='header_r'>
                     <a href="#" class="sousuo"><i class='iconfont icon-sousuo'></i></a>
@@ -19,7 +19,16 @@
 
 <script>
     export default {
-        
+        data() {
+            return {
+                // flag: true
+            }
+        },
+        // methods:{
+        //     handle(){
+
+        //     }
+        // }
     }
 </script>
 
