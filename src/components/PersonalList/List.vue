@@ -13,6 +13,7 @@
         <img src="https://yanxuan.nosdn.127.net/2bbe2405bcc99ab49278fc3f1138a578.png" alt="">
         <img src="../../assets/网易严选img/qrcode.png" alt="">
     </div>
+    <span>信息</span>
     </header>
     <p class="assets">我的资产</p>
     <ul class="onassets">
