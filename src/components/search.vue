@@ -4,7 +4,7 @@
       <button class="iconfont icon-magnifier">
         <span>预售乳胶床垫&nbsp;低至275折</span>
       </button>
-      <span>取消</span>
+      <router-link to="/home" class="cancel">取消</router-link>
     </div>
     <p>热门搜索</p>
     <ul>
@@ -48,9 +48,10 @@ body {
       color: rgba(0, 0, 0, 0.8);
     }
   }
-  & > span {
+  & > .cancel {
     display: inline-block;
-    width: 10%;
+    width: 15%;
+    color: #333;
     text-align: center;
     font-size: 0.25rem;
   }
