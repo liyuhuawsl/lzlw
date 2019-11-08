@@ -15,7 +15,7 @@
                        <span>43.5k人看过</span>
                    </div>
                </a> 
-            </div>
+        </div>
     </div>
 </template>
 <script>

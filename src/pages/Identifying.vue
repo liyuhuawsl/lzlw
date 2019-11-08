@@ -2,14 +2,14 @@
     <div>
         <div class='w_container'>
             <div class='w-header'>
-                <a href="#"><i class='iconfont icon-shouye'></i></a>
+                <router-link to='/home'><i class='iconfont icon-shouye'></i></router-link >
                 <div class='header_c'>
                     <router-link to='/identifying' class="header_cc active">发现</router-link>
                     <router-link to='/identifying' class="header_cc">甄选家</router-link>
                 </div>
                 <div class='header_r'>
                     <a href="#" class="sousuo"><i class='iconfont icon-sousuo'></i></a>
-                    <a href="#"><i class='iconfont icon-gouwuche2'></i></a>
+                    <router-link to="/shoppingcart"><i class='iconfont icon-gouwuche2'></i></router-link>
                 </div>
             </div>
         </div>
