@@ -5,6 +5,8 @@
         <img src="//yanxuan.nosdn.127.net/8945ae63d940cc42406c3f67019c5cb6.png" alt />
         <div class="text">
         <p>18870079052</p>
+        <p>郑洪霞</p>
+        <p>李玉华</p>
         </div>
     </div>
     <div class="QRcode">
